@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIAP cursos</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background: rgb(255,72,72);
+            background: linear-gradient(0deg, rgba(255,72,72,1) 0%, rgba(255,169,175,1) 35%, rgba(255,187,187,1) 46%, rgba(255,255,255,1) 100%);
+           
+        }
+        p{
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 10px;
+            text-align: center;
+        }
+        li{
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+            color: rgb(0, 0, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #divimgprincipal{
+            display: flex;
+            box-sizing: border-box;
+            align-items: center;
+            flex-direction: column;
+
+                       
+        }
+        #divimgprincipal:hover{
+            scale: 1.1;
+            transition: 1s;
+        }
+        #imgprincipal{
+            width: 400px;
+            height: 250px;
+        }
+        header{
+            border: solid 0.2px rgb(255, 255, 255);
+        }
+        #site-favorito{
+            font-size: 20px;
+            text-align: center;
+            color: rgb(1, 14, 84);
+        }
+        #divdofooter{
+            background-color: darkgrey;
+            margin-bottom: 0px;
+        }
+        ul{
+            margin-left: 10px;
+        }
+        #título-cursos{
+            margin-left: 10px;
+
+        }
+        footer{
+            background-color: darkgray;
+            border-top: 1px solid black;
+            padding-bottom: 20px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FIAP, O NOVO ESTÁ AQUI</h1>
+    </header>
+    <section>
+        <div>   <!--Conteúdo principal-->
+            <div id="divimgprincipal"><img src="./img/fiap.png" alt="Logo da FIAP" id="imgprincipal"></div>
+            <p>A FIAP é o centro de excelência em tecnologia mais respeitado do país. Uma história que vem sendo construída dia 
+                após dia, estimulando mentes a vivenciarem a inovação e o empreendedorismo. Porque a FIAP acredita no poder 
+                transformador da tecnologia. Um poder que, aliado à criatividade, inventa, muda, inquieta. Faz as pessoas buscarem 
+                soluções que nunca foram pensadas. Tudo isso para construir um mundo melhor</p>
+        </div>
+        <br>
+        <br>
+        <div> <!--links dos cursos-->
+            <h2 id="título-cursos">Conheça os cursos</h2>
+            <ul>
+                <li><a href="./cursos/administração.html">Administração</a></li>
+                <li><a href="./cursos/analise_desenvolvimento_sistemas.html">Análise e Desenvolvimento de Software</a></li>
+                <li><a href="./cursos/banco_dados.html">Banco de Dados</a></li>
+                <li><a href="./cursos/engenharia_computacao.html">Engenharia de Computação</a></li>
+                <li><a href="./cursos/engenharia_producao.html">Engenharia de Produção</a></li>
+                <li><a href="./cursos/engenharia_mecatronica.html">Engenharia Mecatrônica</a></li>
+                <li><a href="./cursos/gestao_tecnologia_info.html">Gestão de Tecnologia da Informação</a></li>
+                <li><a href="./cursos/jogos_digitais.html">Jogos Digitais</a></li>
+                <li><a href="./cursos/rede_computadores.html">Rede de Computadores</a></li>
+                <li><a href="./cursos/sistema_informacao.html">Sistemas de Informação</a></li>
+                <li><a href="./cursos/sistema_internet.html">Sistemas para Internet</a></li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer> <!--prpaganda-->
+        <h1>Navegue por aí...</h1>
+        <a href="meus_sites_favoritos.html" id="site-favorito"><h3>Clique aqui para analisar os 10 sites favoritos do autor do projeto.</h3></a>
+    </footer>
+</body>
+</html>
